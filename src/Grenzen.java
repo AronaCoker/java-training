@@ -5,8 +5,13 @@ public class Grenzen {
         System.out.println(Integer.MAX_VALUE + 1);
 
 
-       long ageInSeconds = (long)70 * 365 * 24 * 60 * 60;
-        System.out.println(ageInSeconds);
+        int daysLived = 70 * 365; //Common whole Number (Einheitliche Ganzzahl)
+       long ageInSeconds = (long) daysLived * 24 * 60 * 60; // Long
+       long heatbeats = (long) ageInSeconds * 70;
+        System.out.println("lived for " + daysLived + " Days");
+        System.out.println("lived for " + ageInSeconds + " Seconds");
+        System.out.println("Had aprox " + heatbeats + " Heartbeats in his/her life");
+
 
 
     double compareNumber1 = 0.1;

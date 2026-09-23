@@ -2,11 +2,11 @@ public class Steckbrief {
     static void main() {
         String name = "Arona";
         int age = 30;
-        double height = 1.9;
+        double height = 1.15;
         char favoriteCharacter = 'A';
         boolean drinksCoffe = true;
         int birthYear = 2026 - age;
-        double heightInCm  = (double) (height * 100);
+        int heightInCm  = (int) (height * 100);
 
 
 
