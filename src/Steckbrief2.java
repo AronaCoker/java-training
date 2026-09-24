@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Steckbrief2 {
-    static void main(String[] args) {
+    static void main() {
         Scanner scanner = new Scanner(System.in);
 
 
